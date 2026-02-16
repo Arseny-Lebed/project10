@@ -14,13 +14,11 @@ import pandas as pd
 
 def get_ndvi_from_gee(region_coords, date_start, date_end):
     """
-    Реальная функция для GEE требует аутентификации.
-    Здесь мы симулируем результат, который мог бы быть получен через:
+    Здесь я симулирую результат, который мог бы быть получен через:
     import ee
     ee.Initialize()
     collection = ee.ImageCollection('MODIS/006/MOD13Q1').filterDate(...)
     ...
-    Мы возвращаем синтетический временной ряд для примера.
     """
     pass
 
